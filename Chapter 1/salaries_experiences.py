@@ -43,4 +43,6 @@ for salary, tenure in salaries_and_tenures:
 average_salary_by_bucket = {tenure_bucket: sum(salaries) / len(salaries) 
                             for tenure_bucket,salaries in salary_by_tenure_bucket.items()}
 
-print(average_salary_by_bucket) # 
+#print(average_salary_by_bucket) 
+
+""" """
